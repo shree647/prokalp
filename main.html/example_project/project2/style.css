@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+li,
+a,
+button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 1px;
+}
+.logo {
+  cursor: pointer;
+  padding: 5px 10px;
+  height: 5%;
+  width: 5%;
+}
+.navlinks {
+  list-style: none;
+}
+.navlinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+  color: #3e549b;
+}
+button {
+  padding: 5px 25px;
+  background-color: rgb(65, 84, 119);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(3, 16, 19, 0.8);
+}
+.searchbar {
+  padding: 3px 3px 3px;
+  margin: 10px;
+  border: 10px;
+  border-radius: 50px;
+  border-color: white;
+}
+body {
+  background-image: url(unsplash.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  object-fit: 100% 180%;
+}
